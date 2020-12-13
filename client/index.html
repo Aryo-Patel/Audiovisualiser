@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio Visualiser</title>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "styles.css">
+    </head>
+    <body>
+        <div id = "title">
+            <h1>Welcome to AudioVisualiser</h1>
+            <p>Paste a youtube link in the box below and see the output on the right!</p>
+        </div>
+        <div id = "container">
+            <div id = "input-side">
+                <input id = "link" type = "text" placeholder = "Paste your link here!" >
+                <button id = "submit">Submit</button>
+            </div>
+            <div id = "display-side">
+                <canvas id = "display"></canvas>
+                <!-- <iframe id = "iframe" width = 320 height = 240 src = "https://youtube.com/embed/bT6RLNXeGgI"></iframe> -->
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src = "app.js"></script>
+    </body>
+</html>
